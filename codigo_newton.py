@@ -86,8 +86,6 @@ for i in range(N + 1):
             imagem[j, i] = cor_nao_conv
 
 print("Geração concluída!")
-
-# --- VISUALIZAÇÃO DO RESULTADO ---
 plt.figure(figsize=(10, 10))
 plt.imshow(imagem, origin='lower', extent=[-1, 1, -1, 1])
 plt.title('Fractal de Newton para $z^2 - 1 = 0$ (Escala de Cinza)')
